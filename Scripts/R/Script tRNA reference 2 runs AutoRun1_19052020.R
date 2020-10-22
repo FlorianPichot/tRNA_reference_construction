@@ -131,7 +131,7 @@ for (aa in AAlist) {
       if (length (alignment)>1) {
         alignment2 <- msaClustalW(alignment, 
                                   type = 'DNA',
-                                  cluster = "upgma",              # matrice de distance --> arbre enracinÈ
+                                  cluster = "upgma",              # matrice de distance --> arbre enracin√©
                                   substitutionMatrix = "iub")     # prend en compte la notation IUPAC. + 1.9 si match, 0 si non.
         
         consensusSeq <- consensusString(consensusMatrix(alignment2))
@@ -267,7 +267,7 @@ print (aa)
       if (length (alignment)>1) {
         alignment2 <- msaClustalW(alignment, 
                                   type = 'DNA',
-                                  cluster = "upgma",              # matrice de distance --> arbre enracinÈ
+                                  cluster = "upgma",              # matrice de distance --> arbre enracin√©
                                   substitutionMatrix = "iub")     # prend en compte la notation IUPAC. + 1.9 si match, 0 si non.
         
         consensusSeq <- consensusString(consensusMatrix(alignment2))

@@ -1,0 +1,390 @@
+Homo sapiens full tRNA dataset is composed of 419 tRNA sequences.
+
+Collapsing of all duplicates for
+>tRNA-Ala-CGC-1-1=tRNA-Ala-CGC-2-1=tRNA-Ala-TGC-2-1=tRNA-Ala-TGC-3-1=tRNA-Ala-TGC-3-2
+>tRNA-Ala-TGC-5-1=tRNA-Ala-TGC-7-1
+>tRNA-Ala-AGC-10-1=tRNA-Ala-AGC-12-1=tRNA-Ala-AGC-12-2=tRNA-Ala-AGC-12-3=tRNA-Ala-AGC-13-1=tRNA-Ala-AGC-13-2=tRNA-Ala-AGC-14-1=tRNA-Ala-AGC-16-1
+>tRNA-Ala-AGC-11-1=tRNA-Ala-AGC-15-1
+>tRNA-Ala-AGC-2-1=tRNA-Ala-AGC-2-2=tRNA-Ala-AGC-3-1=tRNA-Ala-AGC-7-1
+>tRNA-Ala-AGC-8-1=tRNA-Ala-AGC-8-2
+>tRNA-Ala-AGC-9-1=tRNA-Ala-AGC-9-2
+>tRNA-Arg-ACG-1-1=tRNA-Arg-ACG-1-2=tRNA-Arg-ACG-1-3=tRNA-Arg-ACG-2-1=tRNA-Arg-ACG-2-2=tRNA-Arg-ACG-2-3=tRNA-Arg-ACG-2-4
+>tRNA-Arg-TCT-2-1=tRNA-Arg-TCT-3-1=tRNA-Arg-TCT-3-2
+>tRNA-Arg-CCG-1-1=tRNA-Arg-CCG-1-2=tRNA-Arg-CCG-1-3
+>tRNA-Arg-CCT-1-1=tRNA-Arg-CCT-2-1
+>tRNA-Arg-TCG-2-1=tRNA-Arg-TCG-4-1=tRNA-Arg-TCG-5-1
+>tRNA-Asn-GTT-1-1=tRNA-Asn-GTT-2-1=tRNA-Asn-GTT-2-2=tRNA-Asn-GTT-2-3=tRNA-Asn-GTT-2-4=tRNA-Asn-GTT-2-5=tRNA-Asn-GTT-2-6=tRNA-Asn-GTT-4-1
+>tRNA-Asn-GTT-10-1=tRNA-Asn-GTT-8-1
+>tRNA-Asn-GTT-11-1=tRNA-Asn-GTT-11-2
+>tRNA-Asn-GTT-3-1=tRNA-Asn-GTT-3-2
+>tRNA-Asn-GTT-9-1=tRNA-Asn-GTT-9-2
+>tRNA-Asp-GTC-2-1=tRNA-Asp-GTC-2-10=tRNA-Asp-GTC-2-11=tRNA-Asp-GTC-2-2=tRNA-Asp-GTC-2-3=tRNA-Asp-GTC-2-4=tRNA-Asp-GTC-2-5=tRNA-Asp-GTC-2-6=tRNA-Asp-GTC-2-7=tRNA-Asp-GTC-2-8=tRNA-Asp-GTC-2-9
+>tRNA-Cys-GCA-1-1=tRNA-Cys-GCA-6-1
+>tRNA-Cys-GCA-10-1=tRNA-Cys-GCA-15-1=tRNA-Cys-GCA-18-1=tRNA-Cys-GCA-19-1=tRNA-Cys-GCA-3-1=tRNA-Cys-GCA-9-1=tRNA-Cys-GCA-9-2=tRNA-Cys-GCA-9-3=tRNA-Cys-GCA-9-4
+>tRNA-Cys-GCA-11-1=tRNA-Cys-GCA-14-1=tRNA-Cys-GCA-17-1=tRNA-Cys-GCA-2-1=tRNA-Cys-GCA-2-2=tRNA-Cys-GCA-2-3=tRNA-Cys-GCA-2-4=tRNA-Cys-GCA-4-1=tRNA-Cys-GCA-5-1=tRNA-Cys-GCA-7-1=tRNA-Cys-GCA-8-1
+>tRNA-Cys-GCA-13-1=tRNA-Cys-GCA-20-1
+>tRNA-Cys-GCA-21-1=tRNA-Cys-GCA-23-1
+>tRNA-Gln-CTG-1-1=tRNA-Gln-CTG-1-2=tRNA-Gln-CTG-1-3=tRNA-Gln-CTG-1-4=tRNA-Gln-CTG-1-5=tRNA-Gln-CTG-2-1
+>tRNA-Gln-CTG-3-1=tRNA-Gln-CTG-3-2=tRNA-Gln-CTG-4-1=tRNA-Gln-CTG-4-2
+>tRNA-Gln-TTG-1-1=tRNA-Gln-TTG-3-1=tRNA-Gln-TTG-3-2=tRNA-Gln-TTG-3-3
+>tRNA-Gln-TTG-2-1=tRNA-Gln-TTG-4-1
+>tRNA-Glu-CTC-1-1=tRNA-Glu-CTC-1-2=tRNA-Glu-CTC-1-3=tRNA-Glu-CTC-1-4=tRNA-Glu-CTC-1-5=tRNA-Glu-CTC-1-6=tRNA-Glu-CTC-1-7
+>tRNA-Glu-TTC-1-1=tRNA-Glu-TTC-1-2
+>tRNA-Glu-TTC-2-1=tRNA-Glu-TTC-2-2
+>tRNA-Glu-TTC-4-1=tRNA-Glu-TTC-4-2
+>tRNA-Gly-CCC-1-1=tRNA-Gly-CCC-1-2
+>tRNA-Gly-CCC-2-1=tRNA-Gly-CCC-2-2
+>tRNA-Gly-GCC-1-1=tRNA-Gly-GCC-1-2=tRNA-Gly-GCC-1-3=tRNA-Gly-GCC-1-4=tRNA-Gly-GCC-1-5
+>tRNA-Gly-GCC-2-1=tRNA-Gly-GCC-2-2=tRNA-Gly-GCC-2-3=tRNA-Gly-GCC-2-4=tRNA-Gly-GCC-2-5=tRNA-Gly-GCC-2-6=tRNA-Gly-GCC-3-1
+>tRNA-Gly-TCC-1-1=tRNA-Gly-TCC-2-1=tRNA-Gly-TCC-2-2=tRNA-Gly-TCC-2-3=tRNA-Gly-TCC-2-4=tRNA-Gly-TCC-2-5=tRNA-Gly-TCC-2-6=tRNA-Gly-TCC-3-1=tRNA-Gly-TCC-4-1
+>tRNA-His-GTG-1-1=tRNA-His-GTG-1-2=tRNA-His-GTG-1-3=tRNA-His-GTG-1-4=tRNA-His-GTG-1-5=tRNA-His-GTG-1-6=tRNA-His-GTG-1-7=tRNA-His-GTG-1-8=tRNA-His-GTG-1-9
+>tRNA-Ile-AAT-1-1=tRNA-Ile-AAT-4-1=tRNA-Ile-AAT-5-1=tRNA-Ile-AAT-5-2=tRNA-Ile-AAT-5-3=tRNA-Ile-AAT-5-4=tRNA-Ile-AAT-5-5
+>tRNA-Ile-AAT-2-1=tRNA-Ile-AAT-3-1
+>tRNA-Ile-AAT-7-1=tRNA-Ile-AAT-7-2
+>tRNA-Ile-GAT-1-1=tRNA-Ile-GAT-1-2=tRNA-Ile-GAT-1-3
+>tRNA-Ile-TAT-1-1=tRNA-Ile-TAT-2-1=tRNA-Ile-TAT-2-2=tRNA-Ile-TAT-2-3
+>tRNA-Leu-AAG-1-1=tRNA-Leu-AAG-1-2=tRNA-Leu-AAG-1-3=tRNA-Leu-TAG-1-1
+>tRNA-Leu-AAG-2-1=tRNA-Leu-AAG-2-2=tRNA-Leu-AAG-2-3=tRNA-Leu-AAG-2-4=tRNA-Leu-AAG-3-1
+>tRNA-Leu-CAA-1-1=tRNA-Leu-CAA-1-2
+>tRNA-Leu-CAA-2-1=tRNA-Leu-CAA-3-1=tRNA-Leu-CAA-4-1
+>tRNA-Leu-CAG-1-1=tRNA-Leu-CAG-1-2=tRNA-Leu-CAG-1-3=tRNA-Leu-CAG-1-4=tRNA-Leu-CAG-1-5=tRNA-Leu-CAG-1-6=tRNA-Leu-CAG-1-7=tRNA-Leu-CAG-2-1=tRNA-Leu-CAG-2-2
+>tRNA-Lys-CTT-1-1=tRNA-Lys-CTT-1-2=tRNA-Lys-CTT-4-1
+>tRNA-Lys-TTT-3-1=tRNA-Lys-TTT-3-2=tRNA-Lys-TTT-3-3=tRNA-Lys-TTT-3-4=tRNA-Lys-TTT-3-5
+>tRNA-Lys-CTT-2-1=tRNA-Lys-CTT-2-2=tRNA-Lys-CTT-2-3=tRNA-Lys-CTT-2-4=tRNA-Lys-CTT-2-5=tRNA-Lys-CTT-3-1
+>tRNA-Lys-TTT-1-1=tRNA-Lys-TTT-2-1
+>tRNA-Met-CAT-3-1=tRNA-Met-CAT-3-2
+>tRNA-Met-CAT-4-1=tRNA-Met-CAT-4-2=tRNA-Met-CAT-4-3
+>tRNA-iMet-CAT-1-1=tRNA-iMet-CAT-1-2=tRNA-iMet-CAT-1-3=tRNA-iMet-CAT-1-4=tRNA-iMet-CAT-1-5=tRNA-iMet-CAT-1-6=tRNA-iMet-CAT-1-7=tRNA-iMet-CAT-1-8
+>tRNA-Phe-GAA-1-1=tRNA-Phe-GAA-1-2=tRNA-Phe-GAA-1-3=tRNA-Phe-GAA-1-4=tRNA-Phe-GAA-1-5=tRNA-Phe-GAA-1-6
+>tRNA-Pro-AGG-2-1=tRNA-Pro-AGG-2-2=tRNA-Pro-AGG-2-3=tRNA-Pro-AGG-2-4=tRNA-Pro-AGG-2-5=tRNA-Pro-AGG-2-6=tRNA-Pro-AGG-2-7=tRNA-Pro-AGG-2-8
+>tRNA-Pro-CGG-1-1=tRNA-Pro-CGG-1-2=tRNA-Pro-CGG-1-3=tRNA-Pro-CGG-2-1
+>tRNA-Pro-TGG-1-1=tRNA-Pro-TGG-3-1=tRNA-Pro-TGG-3-2=tRNA-Pro-TGG-3-3=tRNA-Pro-TGG-3-4=tRNA-Pro-TGG-3-5
+>tRNA-Ser-AGA-1-1=tRNA-Ser-AGA-3-1
+>tRNA-Ser-TGA-2-1=tRNA-Ser-TGA-3-1
+>tRNA-Ser-AGA-2-1=tRNA-Ser-AGA-2-2=tRNA-Ser-AGA-2-3=tRNA-Ser-AGA-2-4=tRNA-Ser-AGA-2-5=tRNA-Ser-AGA-2-6
+>tRNA-Ser-CGA-1-1=tRNA-Ser-CGA-2-1
+>tRNA-Ser-GCT-1-1=tRNA-Ser-GCT-2-1
+>tRNA-Ser-GCT-3-1=tRNA-Ser-GCT-4-1=tRNA-Ser-GCT-4-2=tRNA-Ser-GCT-4-3
+>tRNA-Thr-AGT-1-1=tRNA-Thr-AGT-1-2=tRNA-Thr-AGT-1-3=tRNA-Thr-AGT-5-1
+>tRNA-Thr-TGT-3-1=tRNA-Thr-TGT-4-1=tRNA-Thr-TGT-5-1=tRNA-Thr-TGT-6-1
+>tRNA-Thr-AGT-2-1=tRNA-Thr-AGT-2-2=tRNA-Thr-AGT-4-1
+>tRNA-Thr-CGT-1-1=tRNA-Thr-CGT-3-1
+>tRNA-Thr-CGT-2-1=tRNA-Thr-CGT-4-1
+>tRNA-Trp-CCA-1-1=tRNA-Trp-CCA-3-1=tRNA-Trp-CCA-3-2=tRNA-Trp-CCA-3-3
+>tRNA-Tyr-GTA-1-1=tRNA-Tyr-GTA-2-1
+>tRNA-Tyr-GTA-3-1=tRNA-Tyr-GTA-6-1
+>tRNA-Tyr-GTA-4-1=tRNA-Tyr-GTA-5-1=tRNA-Tyr-GTA-5-2=tRNA-Tyr-GTA-5-3=tRNA-Tyr-GTA-5-4=tRNA-Tyr-GTA-5-5
+>tRNA-Val-AAC-1-1=tRNA-Val-AAC-1-2=tRNA-Val-AAC-1-3=tRNA-Val-AAC-1-4=tRNA-Val-AAC-1-5=tRNA-Val-AAC-2-1=tRNA-Val-AAC-4-1
+>tRNA-Val-CAC-1-1=tRNA-Val-CAC-1-2=tRNA-Val-CAC-1-3=tRNA-Val-CAC-1-4=tRNA-Val-CAC-1-5=tRNA-Val-CAC-1-6=tRNA-Val-CAC-4-1=tRNA-Val-CAC-5-1
+>tRNA-Val-TAC-1-1=tRNA-Val-TAC-1-2=tRNA-Val-TAC-2-1
+
+177 unique tRNA sequences from the 419 gtRNAdb entries
+
+Fusion of similar but not identical sequences for
+>Ala_cluster1 consensus sequence tRNA-Ala-CGC-1-1=tRNA-Ala-CGC-2-1=tRNA-Ala-TGC-2-1=tRNA-Ala-TGC-3-1=tRNA-Ala-TGC-3-2|tRNA-Ala-TGC-5-1=tRNA-Ala-TGC-7-1|tRNA-Ala-AGC-2-1=tRNA-Ala-AGC-2-2=tRNA-Ala-AGC-3-1=tRNA-Ala-AGC-7-1|tRNA-Ala-AGC-1-1|tRNA-Ala-CGC-3-1|tRNA-Ala-CGC-4-1|tRNA-Ala-TGC-1-1|tRNA-Ala-TGC-4-1|tRNA-Ala-TGC-6-1|tRNA-Ala-AGC-4-1|tRNA-Ala-AGC-5-1|tRNA-Ala-AGC-6-1
+ggggatgtagctcagtggtagagcgcatgctttgcatgtatgaggccccgggttcgatccccggcatctcca
+gggggtgtagctcagtggtagagcgcatgctttgcatgtatgaggcctcggnttcgatccccgacacctcca
+gggggtgtagctcagtggtagagcgcgtgcttagcatgcacgaggccccgggttcaatccccggcacctcca
+gggggtatagctcagtggtagagcgcgtgcttagcatgcacgaggtcctgggttcgatccccagtacctcca
+ggggatgtagctcagtggtagagcgcgcgcttcgcatgtgtgaggtcccgggttcaatccccggcatctcca
+gggggtgtagctcagtggtagagcgcgtgcttcgcatgtacgaggccccgggttcgacccccggctcctcca
+gggggtgtagctcagtggtagagcgcatgctttgcatgtatgaggtcccgggttcgatccccggcacctcca
+ggggatgtagctcagtggtagagcgcatgctttgcacgtatgaggccccgggttcaatccccggcatctcca
+gggggtgtagctcagtggtagagcacatgctttgcatgtgtgaggccccgggttcgatccccggcacctcca
+ggggatgtagctcagtggtagagcgcatgcttagcatgcatgaggtcccgggttcgatccccagcatctcca
+gggggtgtagctcagtggtagagcgcgtgcttagcatgcacgaggccctgggttcaatccccagcacctcca
+gggggtatagctcagcggtagagcgcgtgcttagcatgcacgaggtcctgggttcaatccccaatacctcca
+GGGGGTGTAGCTCAGTGGTAGAGCGCNTGCTTNGCATGTATGAGGCCCCGGGTTCGATCCCCGGCACCTCCACCA
+>Ala_cluster2 consensus sequence tRNA-Ala-AGC-10-1=tRNA-Ala-AGC-12-1=tRNA-Ala-AGC-12-2=tRNA-Ala-AGC-12-3=tRNA-Ala-AGC-13-1=tRNA-Ala-AGC-13-2=tRNA-Ala-AGC-14-1=tRNA-Ala-AGC-16-1|tRNA-Ala-AGC-11-1=tRNA-Ala-AGC-15-1|tRNA-Ala-AGC-8-1=tRNA-Ala-AGC-8-2|tRNA-Ala-AGC-9-1=tRNA-Ala-AGC-9-2
+ggggaattagctcaagtggtagagcgcttgcttagcatgcaagaggtagtgggatcgatgcccacattctcca
+ggggaattagctcaantggtagagcgctcgcttagcatgcgagaggtagngggatcgatgcccgcattctcca
+gggggattagctcaaatggtagagcgctcgcttagcatgcgagaggtagcgggatcgatgcccgcatcctcca
+ggggaattagctcaggcggtagagcgctcgcttagcatgcgagaggtagcgggatcgacgcccgcattctcca
+GGGGAATTAGCTCAAGTGGTAGAGCGCTCGCTTAGCATGCGAGAGGTAGCGGGATCGATGCCCGCATTCTCCACCA
+>Arg_cluster2 consensus sequence tRNA-Arg-TCT-2-1=tRNA-Arg-TCT-3-1=tRNA-Arg-TCT-3-2|tRNA-Arg-TCT-1-1|tRNA-Arg-TCT-4-1|tRNA-Arg-TCT-5-1
+ggctctgtggcgcaatggatagcgcattggacttctaattcaaaggttgtgggttcgagtcccaccagagtcg
+ggctccgtggcgcaatggatagcgcattggacttctaattcaaaggttccgggttcgagtcccggcggagtcg
+gtctctgtggcgcaatggacgagcgcgctggacttctaatccagaggttccgggttcgagtcccggcagagatg
+ggctctgtggcgcaatggatagcgcattggacttctaattcaaaggttgcgggttcgagtccctccagagtcg
+GGCTCTGTGGCGCAATGGATAGCGCATTGGACTTCTAATTCAAAGGTTNCGGGTTCGAGTCCCGNCAGAGTCGCCA
+>Arg_cluster3 consensus sequence tRNA-Arg-CCG-1-1=tRNA-Arg-CCG-1-2=tRNA-Arg-CCG-1-3|tRNA-Arg-TCG-2-1=tRNA-Arg-TCG-4-1=tRNA-Arg-TCG-5-1|tRNA-Arg-TCG-3-1
+ggccgcgtggcctaatggataaggcgtctgattccggatcagaagattgagggttcgagtcccttcgtggtcg
+gaccacgtggcctaatggataaggcgtctgacttcggatcagaagattgagggttcgaatcccttcgtggtta
+gaccgcgtggcctaatggataaggcgtctgacttcggatcagaagattgagggttcgagtcccttcgtggtcg
+GACCGCGTGGCCTAATGGATAAGGCGTCTGACTTCGGATCAGAAGATTGAGGGTTCGAGTCCCTTCGTGGTCGCCA
+>Arg_cluster4 consensus sequence tRNA-Arg-CCT-1-1=tRNA-Arg-CCT-2-1|tRNA-Arg-CCG-2-1|tRNA-Arg-CCT-3-1|tRNA-Arg-CCT-4-1|tRNA-Arg-CCT-5-1
+gccccagtggcctaatggataaggcactggcctcctaagccagggattgtgggttcgagtcccacctggggtn
+gacccagtggcctaatggataaggcatcagcctccggagctggggattgtgggttcgagtcccatctgggtcg
+gccccggtggcctaatggataaggcattggcctcctaagccagggattgtgggttcgagtcccacccggggta
+gccccagtggcctaatggataaggcattggcctcctaagccagggattgtgggttcgagtcccatctggggtg
+gccccagtggcctgatggataaggtactggcctcctaagccagggattgtgggttcgagttccacctggggta
+GCCCCAGTGGCCTAATGGATAAGGCATTGGCCTCCTAAGCCAGGGATTGTGGGTTCGAGTCCCACCTGGGGTNCCA
+>Arg_cluster5 consensus sequence tRNA-Arg-TCG-6-1|tRNA-Arg-TCG-1-1
+ggccgtgtggcctaatggataaggcgtctgacttcggatcaaaagattgcaggtttgagttctgccacggtcg
+ggccgcgtggcctaatggataaggcgtctgacttcggatcagaagattgcaggttcgagtcctgccgcggtcg
+GGCCGNGTGGCCTAATGGATAAGGCGTCTGACTTCGGATCANAAGATTGCAGGTTNGAGTNCTGCCNCGGTCGCCA
+>Asn_cluster1 consensus sequence tRNA-Asn-GTT-1-1=tRNA-Asn-GTT-2-1=tRNA-Asn-GTT-2-2=tRNA-Asn-GTT-2-3=tRNA-Asn-GTT-2-4=tRNA-Asn-GTT-2-5=tRNA-Asn-GTT-2-6=tRNA-Asn-GTT-4-1|tRNA-Asn-GTT-10-1=tRNA-Asn-GTT-8-1|tRNA-Asn-GTT-11-1=tRNA-Asn-GTT-11-2|tRNA-Asn-GTT-3-1=tRNA-Asn-GTT-3-2|tRNA-Asn-GTT-9-1=tRNA-Asn-GTT-9-2|tRNA-Asn-GTT-12-1|tRNA-Asn-GTT-5-1|tRNA-Asn-GTT-6-1|tRNA-Asn-GTT-7-1
+gtctctgtggcgcaatcggttagcgcgttcggctgttaaccgaaaggttggtggttcgagcccacccagggacg
+gtctctgtggcgcaatcggctagcgcgtttggctgttaactaaaaggttggnggttcgaacccacccagaggcg
+gtctctgtggtgcaatcggttagcgcgttccgctgttaaccgaaagcttggtggttcgagcccacccagggatg
+gtctctgtggcgcaatcggttagcgcattcggctgttaaccgaaaggttggtggttcgagcccacccagggacg
+gtctctgtggcgcaatcggttagcgcgttcggctgttaactgaaaggttagtggttcgagcccacccggggacg
+gtctctgtggcgcaatcggctagcgcgtttggctgttaactaaaaagttggtggttcgaacacacccagaggcg
+gtctctgtggcgcaatcggttagcgcgttcggctgttaactgaaaggttggtggttcgagcccacccagggacg
+gtctctgtggcgcaatgggttagcgcgttcggctgttaaccgaaaggttggtggttcgagcccatccagggacg
+gtctctgtggcgtagtcggttagcgcgttcggctgttaaccgaaaagttggtggttcgagcccacccaggaacg
+GTCTCTGTGGCGCAATCGGTTAGCGCGTTCGGCTGTTAACCGAAAGGTTGGTGGTTCGAGCCCACCCAGGGACGCCA
+>Asp_cluster1 consensus sequence tRNA-Asp-GTC-2-1=tRNA-Asp-GTC-2-10=tRNA-Asp-GTC-2-11=tRNA-Asp-GTC-2-2=tRNA-Asp-GTC-2-3=tRNA-Asp-GTC-2-4=tRNA-Asp-GTC-2-5=tRNA-Asp-GTC-2-6=tRNA-Asp-GTC-2-7=tRNA-Asp-GTC-2-8=tRNA-Asp-GTC-2-9|tRNA-Asp-GTC-1-1|tRNA-Asp-GTC-3-1
+tcctcgttagtatagtggtgagtatccccgcctgtcacgcgggagaccggggttcgattccccgacggggag
+tcctcgttagtatagtggttagtatccccgcctgtcacgcgggagaccggggttcaattccccgacggggag
+tcctcgttagtatagtggtgagtgtccccgtctgtcacgcgggagaccggggttcgattccccgacggggag
+TCCTCGTTAGTATAGTGGTGAGTATCCCCGCCTGTCACGCGGGAGACCGGGGTTCGATTCCCCGACGGGGAGCCA
+>Cys_cluster1 consensus sequence tRNA-Cys-GCA-1-1=tRNA-Cys-GCA-6-1|tRNA-Cys-GCA-10-1=tRNA-Cys-GCA-15-1=tRNA-Cys-GCA-18-1=tRNA-Cys-GCA-19-1=tRNA-Cys-GCA-3-1=tRNA-Cys-GCA-9-1=tRNA-Cys-GCA-9-2=tRNA-Cys-GCA-9-3=tRNA-Cys-GCA-9-4|tRNA-Cys-GCA-11-1=tRNA-Cys-GCA-14-1=tRNA-Cys-GCA-17-1=tRNA-Cys-GCA-2-1=tRNA-Cys-GCA-2-2=tRNA-Cys-GCA-2-3=tRNA-Cys-GCA-2-4=tRNA-Cys-GCA-4-1=tRNA-Cys-GCA-5-1=tRNA-Cys-GCA-7-1=tRNA-Cys-GCA-8-1|tRNA-Cys-GCA-13-1=tRNA-Cys-GCA-20-1|tRNA-Cys-GCA-21-1=tRNA-Cys-GCA-23-1|tRNA-Cys-GCA-12-1|tRNA-Cys-GCA-16-1|tRNA-Cys-GCA-22-1
+gggggnntagctcagtggtagagcatttgactgcagatcaagaggtccctggttcaaatccaggtgccccct
+gggggtatagctcaggggtagagcatttgactgcagatcaagaggtccctggttcaaatccaggtgccccct
+gggggtatagctcagnnggtagagcatttgactgcagatcaagaggtccccggttcaaatccgggtgccccct
+gggngtatagctcaggggtagagcatttgactgcagatcaagaggtccccagttcaaatctgggtgccccct
+gggggtatagctcacaggtagagcatttgactgcagatcaagaggtccccggttcaaatcnggntncnccct
+gggggtatagcttaggggtagagcatttgactgcagatcaaaaggtccctggttcaaatccaggtgcccctt
+gggggtatagctcaggggtagagcacttgactgcagatcaagaagtccttggttcaaatccaggtgccccct
+gggcgtatagctcaggggtagagcatttgactgcagatcaagaggtccccagttcaaatctgggtgccca
+GGGGGTATAGCTCAGGGGTAGAGCATTTGACTGCAGATCAAGAGGTCCCNGGTTCAAATCCNGGTGCCCCCTCCA
+>Gln_cluster1 consensus sequence tRNA-Gln-CTG-1-1=tRNA-Gln-CTG-1-2=tRNA-Gln-CTG-1-3=tRNA-Gln-CTG-1-4=tRNA-Gln-CTG-1-5=tRNA-Gln-CTG-2-1|tRNA-Gln-CTG-3-1=tRNA-Gln-CTG-3-2=tRNA-Gln-CTG-4-1=tRNA-Gln-CTG-4-2|tRNA-Gln-TTG-1-1=tRNA-Gln-TTG-3-1=tRNA-Gln-TTG-3-2=tRNA-Gln-TTG-3-3|tRNA-Gln-TTG-2-1=tRNA-Gln-TTG-4-1|tRNA-Gln-CTG-5-1|tRNA-Gln-CTG-6-1|tRNA-Gln-CTG-7-1
+ggttccatggtgtaatggttagcactctggactctgaatccagcgatccgagttcaaatctcggtggaacct
+ggttccatggtgtaatggtnagcactctggactctgaatccagcgatccgagttcgagtctcggtggaacct
+ggccccatggtgtaatggttagcactctggactttgaatccagcgatccgagttcaaatctcggtgggacct
+ggtcccatggtgtaatggttagcactctggnctttgaatccagcaatccgagttcgaatctnggtgggacct
+ggttccatggtgtaatggttagcactctggactctgaatccggtaatccgagttcaaatctcggtggaacct
+ggccccatggtgtaatggtcagcactctggactctgaatccagcgatccgagttcaaatctcggtgggaccc
+ggttccatggtgtaatggtaagcactctggactctgaatccagccatctgagttcgagtctctgtggaacct
+GGTTCCATGGTGTAATGGTTAGCACTCTGGACTCTGAATCCAGCGATCCGAGTTCAAATCTCGGTGGAACCTCCA
+>Glu_cluster1 consensus sequence tRNA-Glu-CTC-1-1=tRNA-Glu-CTC-1-2=tRNA-Glu-CTC-1-3=tRNA-Glu-CTC-1-4=tRNA-Glu-CTC-1-5=tRNA-Glu-CTC-1-6=tRNA-Glu-CTC-1-7|tRNA-Glu-TTC-4-1=tRNA-Glu-TTC-4-2|tRNA-Glu-CTC-2-1|tRNA-Glu-TTC-3-1
+tccctggtggtctagtggttaggattcggcgctctcaccgccgcggcccgggttcgattcccggtcagggaa
+tccctggtggtctagtggctaggattcggcgctttcaccgccgcggcccgggttcgattcccggtcagggaa
+tccctggtggtctagtggttaggattcggcgctctcaccgccgcggcccgggttcgattcccggtcaggaaa
+tccctggtggtctagtggctaggattcggcgctttcaccgccgcggcccgggttcgattcccggccagggaa
+TCCCTGGTGGTCTAGTGGNTAGGATTCGGCGCTNTCACCGCCGCGGCCCGGGTTCGATTCCCGGTCAGGGAACCA
+>Glu_cluster2 consensus sequence tRNA-Glu-TTC-1-1=tRNA-Glu-TTC-1-2|tRNA-Glu-TTC-2-1=tRNA-Glu-TTC-2-2
+tcccatatggtctagcggttaggattcctggttttcacccaggtggcccgggttcgactcccggtatgggaa
+tcccacatggtctagcggttaggattcctggttttcacccaggcggcccgggttcgactcccggtgtgggaa
+TCCCANATGGTCTAGCGGTTAGGATTCCTGGTTTTCACCCAGGNGGCCCGGGTTCGACTCCCGGTNTGGGAACCA
+>Gly_cluster1 consensus sequence tRNA-Gly-CCC-1-1=tRNA-Gly-CCC-1-2|tRNA-Gly-GCC-1-1=tRNA-Gly-GCC-1-2=tRNA-Gly-GCC-1-3=tRNA-Gly-GCC-1-4=tRNA-Gly-GCC-1-5|tRNA-Gly-GCC-2-1=tRNA-Gly-GCC-2-2=tRNA-Gly-GCC-2-3=tRNA-Gly-GCC-2-4=tRNA-Gly-GCC-2-5=tRNA-Gly-GCC-2-6=tRNA-Gly-GCC-3-1|tRNA-Gly-CCC-3-1|tRNA-Gly-GCC-4-1|tRNA-Gly-GCC-5-1
+gcattggtggttcagtggtagaattctcgcctcccacgcgggagacccgggttcaattcccggccaatgca
+gcatgggtggttcagtggtagaattctcgcctgccacgcgggaggcccgggttcgattcccggcccatgca
+gcattggtggttcagtggtagaattctcgcctgccacgcgggaggcccgggttcgattcccggccaatgca
+gcattggtggttcaatggtagaattctcgcctcccacgcaggagacccaggttcgattcctggccaatgca
+gcataggtggttcagtggtagaattcttgcctgccacgcaggaggcccaggtttgattcctggcccatgca
+gcattggtggttcagtggtagaattctcgcctgccatgcgggcggccgggcttcgattcctggccaatgca
+GCATTGGTGGTTCAGTGGTAGAATTCTCGCCTGCCACGCGGGAGGCCCGGGTTCGATTCCNGGCCAATGCACCA
+>His_cluster1 consensus sequence tRNA-His-GTG-1-1=tRNA-His-GTG-1-2=tRNA-His-GTG-1-3=tRNA-His-GTG-1-4=tRNA-His-GTG-1-5=tRNA-His-GTG-1-6=tRNA-His-GTG-1-7=tRNA-His-GTG-1-8=tRNA-His-GTG-1-9|tRNA-His-GTG-2-1
+gccgtgatcgtatagtggttagtactctgcgttgtggccgcagcaacctcggttcgaatccgagtcacggca
+gccatgatcgtatagtggttagtactctgcgctgtggccgcagcaacctcggttcgaatccgagtcacggca
+GCCNTGATCGTATAGTGGTTAGTACTCTGCGNTGTGGCCGCAGCAACCTCGGTTCGAATCCGAGTCACGGCACCA
+>Ile_cluster1 consensus sequence tRNA-Ile-AAT-1-1=tRNA-Ile-AAT-4-1=tRNA-Ile-AAT-5-1=tRNA-Ile-AAT-5-2=tRNA-Ile-AAT-5-3=tRNA-Ile-AAT-5-4=tRNA-Ile-AAT-5-5|tRNA-Ile-AAT-2-1=tRNA-Ile-AAT-3-1|tRNA-Ile-AAT-7-1=tRNA-Ile-AAT-7-2|tRNA-Ile-GAT-1-1=tRNA-Ile-GAT-1-2=tRNA-Ile-GAT-1-3|tRNA-Ile-AAT-6-1|tRNA-Ile-AAT-8-1|tRNA-Ile-AAT-9-1
+ggccggttagctcagttggttagagcgtggtgctaataacgccaaggtcgcgggttcgatccccgtacgggcca
+ggcnggttagctcagttggttagagcgtggtgctaataacgccaaggtcgcgggttcgatccccgtactggcca
+ggccggttagctcagttggtcagagcgtggtgctaataacgccaaggtcgcgggttcgatccccgtacgggcca
+ggccggttagctcagttggtaagagcgtggtgctgataacaccaaggtcgcgggctcgactcccgcaccggcca
+ggccggttagctcagttggttagagcgtggtgctaataacgctaaggtcgcgggttcgatccccgtactggcca
+ggccggttagctcagtcggctagagcgtggtgctaataacgccaaggtcgcgggttcgatccccgtacgggcca
+ggctggttagttcagttggttagagcgtggtgctaataacgccaaggtcgtgggttcgatccccatatcggcca
+GGCCGGTTAGCTCAGTTGGTTAGAGCGTGGTGCTAATAACGCCAAGGTCGCGGGTTCGATCCCCGTACNGGCCACCA
+>Ile_cluster2 consensus sequence tRNA-Ile-TAT-1-1=tRNA-Ile-TAT-2-1=tRNA-Ile-TAT-2-2=tRNA-Ile-TAT-2-3|tRNA-Ile-TAT-3-1
+gctccagtggcgcaatcggttagcgcgcggtacttataatgccgaggttgtgagttcgagcctcacctggagca
+gctccagtggcgcaatcggttagcgcgcggtacttataatgccgaggttgtgagttcaagcctcacctggagca
+GCTCCAGTGGCGCAATCGGTTAGCGCGCGGTACTTATAATGCCGAGGTTGTGAGTTCNAGCCTCACCTGGAGCACCA
+>Leu_cluster1 consensus sequence tRNA-Leu-AAG-1-1=tRNA-Leu-AAG-1-2=tRNA-Leu-AAG-1-3=tRNA-Leu-TAG-1-1|tRNA-Leu-AAG-2-1=tRNA-Leu-AAG-2-2=tRNA-Leu-AAG-2-3=tRNA-Leu-AAG-2-4=tRNA-Leu-AAG-3-1|tRNA-Leu-TAG-2-1|tRNA-Leu-TAG-3-1|tRNA-Leu-AAG-4-1
+ggtagcgtggccgagcggtctaaggcgctggattaaggctccagtctcttcggaggcgtgggttcgaatcccaccgctgcca
+ggtagcgtggccgagcggtctaaggcgctggattaaggctccagtctcttcgggggcgtgggttcgaatcccaccgctgcca
+ggtagtgtggccgagcggtctaaggcgctggatttaggctccagtctcttcgggggcgtgggttcgaatcccaccactgcca
+ggtagcgtggccgagtggtctaaggcgctggatttaggctccagtcatttcgatggcgtgggttcgaatcccaccgctgcca
+ggtagcgtggccgagtggtctaagacgctggattaaggctccagtctcttcgggggcgtgggtttgaatcccaccgctgcca
+GGTAGCGTGGCCGAGCGGTCTAAGGCGCTGGATTAAGGCTCCAGTCTCTTCGGGGGCGTGGGTTCGAATCCCACCGCTGCCACCA
+>Leu_cluster2 consensus sequence tRNA-Leu-CAA-1-1=tRNA-Leu-CAA-1-2|tRNA-Leu-CAA-2-1=tRNA-Leu-CAA-3-1=tRNA-Leu-CAA-4-1
+gtcaggatggccgagtggtctaaggcgccagactcaagttctggtctccaatggaggcgtgggttcgaatcccacttctgaca
+gtcaggatggccgagtggtctaaggcgccagactcaagttctggtctccgnatggaggcgtgggttcgaatcccacttctgaca
+GTCAGGATGGCCGAGTGGTCTAAGGCGCCAGACTCAAGTTCTGGTCTCCNNATGGAGGCGTGGGTTCGAATCCCACTTCTGACACCA
+>Leu_cluster3 consensus sequence tRNA-Leu-CAG-1-1=tRNA-Leu-CAG-1-2=tRNA-Leu-CAG-1-3=tRNA-Leu-CAG-1-4=tRNA-Leu-CAG-1-5=tRNA-Leu-CAG-1-6=tRNA-Leu-CAG-1-7=tRNA-Leu-CAG-2-1=tRNA-Leu-CAG-2-2|tRNA-Leu-CAA-6-1
+gtcaggatggccgagcggtctaaggcgctgcgttcaggtcgcagtctcccctggaggcgtgggttcgaatcccactcctgaca
+gtcaggatggccgagcagtcttaaggcgctgcgttcaaatcgcaccctccgctggaggcgtgggttcgaatcccacttttgaca
+GTCAGGATGGCCGAGCNGTCTNAAGGCGCTGCGTTCANNTCGCANNCTCCNCTGGAGGCGTGGGTTCGAATCCCACTNNTGACACCA
+>Leu_cluster4 consensus sequence tRNA-Leu-TAA-2-1|tRNA-Leu-TAA-3-1|tRNA-Leu-TAA-4-1|tRNA-Leu-TAA-1-1
+accgggatggccgagtggttaaggcgttggacttaagatccaatgggctggtgcccgcgtgggttcgaaccccactctcggta
+accagaatggccgagtggttaaggcgttggacttaagatccaatggattcatatccgcgtgggttcgaaccccacttctggta
+accgggatggctgagtggttaaggcgttggacttaagatccaatggacaggtgtccgcgtgggttcgagccccactcccggta
+accaggatggccgagtggttaaggcgttggacttaagatccaatggacatatgtccgcgtgggttcgaaccccactcctggta
+ACCNGGATGGCCGAGTGGTTAAGGCGTTGGACTTAAGATCCAATGGACNGNTGTCCGCGTGGGTTCGAACCCCACTCCNGGTACCA
+>Lys_cluster1 consensus sequence tRNA-Lys-CTT-1-1=tRNA-Lys-CTT-1-2=tRNA-Lys-CTT-4-1|tRNA-Lys-CTT-2-1=tRNA-Lys-CTT-2-2=tRNA-Lys-CTT-2-3=tRNA-Lys-CTT-2-4=tRNA-Lys-CTT-2-5=tRNA-Lys-CTT-3-1|tRNA-Lys-CTT-10-1|tRNA-Lys-CTT-11-1|tRNA-Lys-CTT-5-1|tRNA-Lys-CTT-7-1|tRNA-Lys-CTT-8-1|tRNA-Lys-CTT-9-1
+gcccggctagctcagtcggtagagcatgggactcttaatcccagggtcgtgggttcgagccccacgttgggcg
+gcccggctagctcagtcggtagagcatgagactcttaatctcagggtcgtgggttcgagccccacgttgggcg
+gcccagctagctcagtcggtagagcataagactcttaatctcagggttgtggattcgtgccccatgctgggtg
+gcagctagctcagtcggtagagcatgagactcttaatctcagggtcatgggttcgtgccccatgttgggtgcca
+gcccggctagctcagtcgatagagcatgagactcttaatctcagggtcgtgggttcgagccgcacgttgggcg
+gcccagctagctcagtcggtagagcatgagactcttaatctcagggtcatgggtttgagccccacgtttggtg
+gcctggctagctcagtcggcaaagcatgagactcttaatctcagggtcgtgggctcgagctccatgttgggcg
+gcccgactacctcagtcggtggagcatgggactcttcatcccagggttgtgggttcgagccccacattgggca
+GCCCGGCTAGCTCAGTCGGTAGAGCATGAGACTCTTAATCTCAGGGTCGTGGGTTCGAGCCCCACGTTGGGCGCCA
+>Lys_cluster2 consensus sequence tRNA-Lys-TTT-3-1=tRNA-Lys-TTT-3-2=tRNA-Lys-TTT-3-3=tRNA-Lys-TTT-3-4=tRNA-Lys-TTT-3-5|tRNA-Lys-TTT-1-1=tRNA-Lys-TTT-2-1|tRNA-Lys-TTT-11-1|tRNA-Lys-TTT-4-1|tRNA-Lys-TTT-5-1|tRNA-Lys-TTT-6-1|tRNA-Lys-TTT-7-1
+gcccggatagctcagtcggtagagcatcagacttttaatctgagggtccagggttcaagtccctgttcgggcg
+gcctggatagctcagttggtagagcatcagacttttaatctgagggtccagggttcaagtccctgttcaggcn
+acccagatagctcagtcagtagagcatcagacttttaatctgagggtccaaggttcatgtccctttttgggtg
+gcctggatagctcagtcggtagagcatcagacttttaatctgagggtccagggttcaagtccctgttcaggcg
+gcccggatagctcagtcggtagagcatcagacttttaatctgagggtccggggttcaagtccctgttcgggcg
+gcctgggtagctcagtcggtagagcatcagacttttaatctgagggtccagggttcaagtccctgtccaggcg
+gcctggatagctcagttggtagaacatcagacttttaatctgacggtgcagggttcaagtccctgttcaggcg
+GCCTGGATAGCTCAGTCGGTAGAGCATCAGACTTTTAATCTGAGGGTCCAGGGTTCAAGTCCCTGTTCAGGCGCCA
+>Met_cluster1 consensus sequence tRNA-Met-CAT-3-1=tRNA-Met-CAT-3-2|tRNA-Met-CAT-4-1=tRNA-Met-CAT-4-2=tRNA-Met-CAT-4-3|tRNA-Met-CAT-1-1|tRNA-Met-CAT-2-1|tRNA-Met-CAT-5-1|tRNA-Met-CAT-6-1|tRNA-Met-CAT-7-1
+gcctccttagcgcagtaggcagcgcgtcagtctcataatctgaaggtcctgagttcgaacctcagagggggca
+gccctcttagcgcagcgggcagcgcgtcagtctcataatctgaaggtcctgagttcgagcctcagagagggca
+gcctcgttagcgcagtaggtagcgcgtcagtctcataatctgaaggtcgtgagttcgatcctcacacggggca
+gccctcttagcgcagtgggcagcgcgtcagtctcataatctgaaggtcctgagttcgagcctcagagagggca
+gccctcttagcgcagctggcagcgcgtcagtctcataatctgaaggtcctgagttcaagcctcagagagggca
+gcctcgttagcgcagtaggcagcgcgtcagtctcataatctgaaggtcgtgagttcgagcctcacacggggca
+gccctcttagtgcagctggcagcgcgtcagtttcataatctgaaagtcctgagttcaagcctcagagagggca
+GCCCTCTTAGCGCAGTNGGCAGCGCGTCAGTCTCATAATCTGAAGGTCCTGAGTTCGAGCCTCAGAGAGGGCACCA
+>Met_cluster2 consensus sequence tRNA-iMet-CAT-1-1=tRNA-iMet-CAT-1-2=tRNA-iMet-CAT-1-3=tRNA-iMet-CAT-1-4=tRNA-iMet-CAT-1-5=tRNA-iMet-CAT-1-6=tRNA-iMet-CAT-1-7=tRNA-iMet-CAT-1-8|tRNA-iMet-CAT-2-1
+agcagagtggcgcagcggaagcgtgctgggcccataacccagaggtcgatggatcgaaaccatcctctgcta
+agcagagtggcgcagcggaagcgtgctgggcccataacccagaggtcgatggatctaaaccatcctctgcta
+AGCAGAGTGGCGCAGCGGAAGCGTGCTGGGCCCATAACCCAGAGGTCGATGGATCNAAACCATCCTCTGCTACCA
+>Phe_cluster1 consensus sequence tRNA-Phe-GAA-1-1=tRNA-Phe-GAA-1-2=tRNA-Phe-GAA-1-3=tRNA-Phe-GAA-1-4=tRNA-Phe-GAA-1-5=tRNA-Phe-GAA-1-6|tRNA-Phe-GAA-2-1|tRNA-Phe-GAA-3-1|tRNA-Phe-GAA-4-1|tRNA-Phe-GAA-6-1
+gccgaaatagctcagttgggagagcgttagactgaagatctaaaggtccctggttcgatcccgggtttcggca
+gccgaaatagctcagttgggagagcgttagactgaagatctaaaggtccctggttcaatcccgggtttcggca
+gccgagatagctcagttgggagagcgttagactgaagatctaaaggtccctggttcaatcccgggtttcggca
+gccgaaatagctcagttgggagagcgttagaccgaagatcttaaaggtccctggttcaatcccgggtttcggca
+gctgaaatagctcagttgggagagcgttagactgaagatcttaaagttccctggttcaaccctgggtttcagcc
+GCCGAAATAGCTCAGTTGGGAGAGCGTTAGACTGAAGATCTAAAGGTCCCTGGTTCAATCCCGGGTTTCGGCACCA
+>Pro_cluster1 consensus sequence tRNA-Pro-AGG-2-1=tRNA-Pro-AGG-2-2=tRNA-Pro-AGG-2-3=tRNA-Pro-AGG-2-4=tRNA-Pro-AGG-2-5=tRNA-Pro-AGG-2-6=tRNA-Pro-AGG-2-7=tRNA-Pro-AGG-2-8|tRNA-Pro-CGG-1-1=tRNA-Pro-CGG-1-2=tRNA-Pro-CGG-1-3=tRNA-Pro-CGG-2-1|tRNA-Pro-TGG-1-1=tRNA-Pro-TGG-3-1=tRNA-Pro-TGG-3-2=tRNA-Pro-TGG-3-3=tRNA-Pro-TGG-3-4=tRNA-Pro-TGG-3-5|tRNA-Pro-AGG-1-1|tRNA-Pro-TGG-2-1
+ggctcgttggtctaggggtatgattctcgcttagggtgcgagaggtcccgggttcaaatcccggacgagccc
+ggctcgttggtctaggggtatgattctcgcttcgggtgcgagaggtcccgggttcaaatcccggacgagccc
+ggctcgttggtctaggggtatgattctcgctttgggtgcgagaggtcccgggttcaaatcccggacgagccc
+ggctcgttggtctaggggtatgattctcgcttaggatgcgagaggtcccgggttcaaatcccggacgagccc
+ggctcgttggtctaggggtatgattctcggtttgggtccgagaggtcccgggttcaaatcccggacgagccc
+GGCTCGTTGGTCTAGGGGTATGATTCTCGCTTNGGGTGCGAGAGGTCCCGGGTTCAAATCCCGGACGAGCCCCCA
+>Ser_cluster1 consensus sequence tRNA-Ser-AGA-1-1=tRNA-Ser-AGA-3-1|tRNA-Ser-TGA-2-1=tRNA-Ser-TGA-3-1|tRNA-Ser-AGA-2-1=tRNA-Ser-AGA-2-2=tRNA-Ser-AGA-2-3=tRNA-Ser-AGA-2-4=tRNA-Ser-AGA-2-5=tRNA-Ser-AGA-2-6|tRNA-Ser-TGA-4-1|tRNA-Ser-AGA-4-1
+gtagtcgtggccgagtggttaaggcgatggactagaaatccattggggtttccccncgcaggttcgaatcctgccgactacg
+gtagtcgtggccgagtggttaaggcgatggacttgaaatccattggggtntccccgcgcaggttcgaatcctgccgactacg
+gtagtcgtggccgagtggttaaggcgatggactagaaatccattggggtctccccgcgcaggttcgaatcctgccgactacg
+gtagtcgtggccgagtggttaaggcgatggacttgaaatccattggggtttccccgcgcaggttcgaatcctgtcggctacg
+gtagtcgtggccgagtggttaaggtgatggactagaaacccattggggtctccccgcgcaggttcgaatcctgccgactacg
+GTAGTCGTGGCCGAGTGGTTAAGGCGATGGACTAGAAATCCATTGGGGTNTCCCCGCGCAGGTTCGAATCCTGCCGACTACGCCA
+>Ser_cluster2 consensus sequence tRNA-Ser-CGA-1-1=tRNA-Ser-CGA-2-1|tRNA-Ser-TGA-1-1|tRNA-Ser-CGA-3-1
+gctgtgatggccgagtggttaaggcgttggactcgaaatccaatggggtctccccgcgcaggttcnaatcctgctcacagcg
+gcagcgatggccgagtggttaaggcgttggacttgaaatccaatggggtctccccgcgcaggttcgaaccctgctcgctgcg
+gctgtgatggccgagtggttaaggtgttggactcgaaatccaatgggggttccccgcgcaggttcaaatcctgctcacagcg
+GCTGTGATGGCCGAGTGGTTAAGGCGTTGGACTCGAAATCCAATGGGGTCTCCCCGCGCAGGTTCNAATCCTGCTCACAGCGCCA
+>Ser_cluster3 consensus sequence tRNA-Ser-GCT-1-1=tRNA-Ser-GCT-2-1|tRNA-Ser-GCT-3-1=tRNA-Ser-GCT-4-1=tRNA-Ser-GCT-4-2=tRNA-Ser-GCT-4-3|tRNA-Ser-GCT-6-1|tRNA-Ser-GCT-5-1
+gacgaggtggccgagtggttaaggcgatggactgctaatccattgtgctctgcacgcgtgggttcgaatcccaccntcgtcg
+gacgaggtggccgagtggttaaggcgatggactgctaatccattgtgctctgcacgcgtgggttcgaatcccatcctcgtcg
+ggagaggcctggccgagtggttaaggcgatggactgctaatccattgtgctctgcacgcgtgggttcgaatcccatcctcgtcg
+gacgaggtggccgagtggttaaggcgatggactgctaatccattgtgctctgcacacgtgggttcgaatcccatcctcgtcg
+GACGAGGTGGCCGAGTGGTTAAGGCGATGGACTGCTAATCCATTGTGCTCTGCACGCGTGGGTTCGAATCCCATCCTCGTCGCCA
+>Thr_cluster1 consensus sequence tRNA-Thr-AGT-1-1=tRNA-Thr-AGT-1-2=tRNA-Thr-AGT-1-3=tRNA-Thr-AGT-5-1|tRNA-Thr-AGT-2-1=tRNA-Thr-AGT-2-2=tRNA-Thr-AGT-4-1|tRNA-Thr-CGT-1-1=tRNA-Thr-CGT-3-1|tRNA-Thr-AGT-3-1|tRNA-Thr-AGT-6-1|tRNA-Thr-TGT-1-1
+ggcgccgtggcttagttggttaaagcgcctgtctagtaaacaggagatcctgggttcgaatcccagcggtgcct
+ggctccgtggcttagctggttaaagcgcctgtctagtaaacaggagatcctgggttcgaatcccagcggggcct
+ggctctntggcttagttggntaaagcgcctgtctcgtaaacaggagatcctgggttcgantcccagnggggcct
+ggctccgtagcttagttggttaaagcgcctgtctagtaaacaggagatcctgggttcgactcccagcggggcct
+ggccctgtggcttagctggtcaaagcgcctgtctagtaaacaggagatcctgggttcgaatcccagcggggcct
+ggctctatggcttagttggttaaagcgcctgtcttgtaaacaggagatcctgggttcgaatcccagtagagcct
+GGCTCNGTGGCTTAGTTGGTTAAAGCGCCTGTCTAGTAAACAGGAGATCCTGGGTTCGAATCCCAGCGGGGCCTCCA
+>Thr_cluster2 consensus sequence tRNA-Thr-TGT-3-1=tRNA-Thr-TGT-4-1=tRNA-Thr-TGT-5-1=tRNA-Thr-TGT-6-1|tRNA-Thr-CGT-5-1|tRNA-Thr-TGT-2-1
+ggctccatagctcaggggttagagcactggtcttgtaaaccaggggtcgcgagttcaaatctcgctggggcct
+ggccctgtagctcagcggttggagcgctggtctcgtaaacctaggggtcgtgagttcaaatctcaccagggcct
+ggctccatagctcagtggttagagcactggtcttgtaaaccaggggtcgcgagttcgatcctcgctggggcct
+GGCTCCATAGCTCAGNGGTTAGAGCACTGGTCTTGTAAACCAGGGGTCGCGAGTTCAAATCTCGCTGGGGCCTCCA
+>Trp_cluster1 consensus sequence tRNA-Trp-CCA-1-1=tRNA-Trp-CCA-3-1=tRNA-Trp-CCA-3-2=tRNA-Trp-CCA-3-3|tRNA-Trp-CCA-2-1|tRNA-Trp-CCA-4-1|tRNA-Trp-CCA-5-1
+gacctcgtggcgcaacggtagcgcgtctgactccagatcagaaggttgcgtgttcaaatcacgtcggggtca
+gacctcgtggcgcaatggtagcgcgtctgactccagatcagaaggttgcgtgttcaagtcacgtcggggtca
+gacctcgtggcgcaacggtagcgcgtctgactccagatcagaaggctgcgtgttcgaatcacgtcggggtca
+gacctcgtggcgcaacggcagcgcgtctgactccagatcagaaggttgcgtgttcaaatcacgtcggggtca
+GACCTCGTGGCGCAACGGTAGCGCGTCTGACTCCAGATCAGAAGGTTGCGTGTTCAAATCACGTCGGGGTCACCA
+>Tyr_cluster1 consensus sequence tRNA-Tyr-GTA-1-1=tRNA-Tyr-GTA-2-1|tRNA-Tyr-GTA-3-1=tRNA-Tyr-GTA-6-1|tRNA-Tyr-GTA-4-1=tRNA-Tyr-GTA-5-1=tRNA-Tyr-GTA-5-2=tRNA-Tyr-GTA-5-3=tRNA-Tyr-GTA-5-4=tRNA-Tyr-GTA-5-5|tRNA-Tyr-GTA-7-1|tRNA-Tyr-GTA-8-1
+ccttcgatagctcagttggtagagcggaggactgtagatccttaggtcgctggttcgantccggctcgaagga
+ccttcgatagctcagntggtagagcggaggactgtagatccttaggtcgctggttcgaatccggctcggagga
+ccttcgatagctcagctggtagagcggaggactgtagatccttaggtcgctggttcgattccggctcgaagga
+ccttcgatagctcagctggtagagcggaggactgtagatccttaggtcgctggttcaattccggctcgaagga
+ctttcgatagctcagttggtagagcggaggactgtagatccttaggtcgctggttcgaatccggctcgaagga
+CCTTCGATAGCTCAGNTGGTAGAGCGGAGGACTGTAGATCCTTAGGTCGCTGGTTCGANTCCGGCTCGAAGGACCA
+>Val_cluster1 consensus sequence tRNA-Val-AAC-1-1=tRNA-Val-AAC-1-2=tRNA-Val-AAC-1-3=tRNA-Val-AAC-1-4=tRNA-Val-AAC-1-5=tRNA-Val-AAC-2-1=tRNA-Val-AAC-4-1|tRNA-Val-CAC-1-1=tRNA-Val-CAC-1-2=tRNA-Val-CAC-1-3=tRNA-Val-CAC-1-4=tRNA-Val-CAC-1-5=tRNA-Val-CAC-1-6=tRNA-Val-CAC-4-1=tRNA-Val-CAC-5-1|tRNA-Val-TAC-4-1|tRNA-Val-AAC-3-1|tRNA-Val-AAC-5-1|tRNA-Val-CAC-2-1|tRNA-Val-CAC-3-1|tRNA-Val-CAC-6-1
+gtttccgtagtgtagtggttatcacgttcgcctaacacgcgaaaggtccccggttcgaaaccgggcggaaaca
+gtttccgtagtgtagtggttatcacgttcgcctcacacgcgaaaggtccccggttcgaaaccgggcggaaaca
+gtttccgtggtgtagtggttatcacattcgccttacacgcgaaaggtcctcgggtcgaaaccgagcggaaaca
+gtttccgtagtgtagtggttatcacgttcgcctaacacgcgaaaggtccctggatcaaaaccaggcggaaaca
+gtttccgtagtgtagtggttatcacgtttgcctaacacgcgaaaggtccccggttcgaaaccgggcagaaaca
+gcttctgtagtgtagtggttatcacgttcgcctcacacgcgaaaggtccccggttcgaaaccgggcagaagca
+gtttccgtagtgtagcggttatcacattcgcctcacacgcgaaaggtccccggttcgatcccgggcggaaaca
+gtttccgtagtggagtggttatcacgttcgcctcacacgcgaaaggtccccggtttgaaaccaggcggaaaca
+GTTTCCGTAGTGTAGTGGTTATCACGTTCGCCTCACACGCGAAAGGTCCCCGGTTCGAAACCGGGCGGAAACACCA
+>Val_cluster2 consensus sequence tRNA-Val-TAC-1-1=tRNA-Val-TAC-1-2=tRNA-Val-TAC-2-1|tRNA-Val-TAC-3-1
+ggttccatagtgtagtggttatcacgtctgctttacacgcagaaggtcctgggttcgagccccagtggaacca
+ggttccatagtgtagtggttatcacatctgctttacacgcagaaggtcctgggttcaagccccagtggaacca
+GGTTCCATAGTGTAGTGGTTATCACNTCTGCTTTACACGCAGAAGGTCCTGGGTTCNAGCCCCAGTGGAACCACCA
+
+45 merged tRNA sequences from the 419 gtRNAdb entries
+
+Out of the 49 different anticodons from genomic predictions, the merged reference represents 40 of them.
+The missing codons are in the isotypes
+Ala
+Gln
+Gly
+Ile
+Leu
+Pro
+Ser
+Val
+
+Out of the 20 known tRNA sequences from the literature, 18 of them shares similar sequences with our reference (differences <= 7).
+
+tdbR00000016 gggggattagctcaaatggtagagcgctcgcttagcatgcgagaggtagcgggatcgatgcccgcatcctccacca 3 Ala_cluster2 ggggaattagctcaagtggtagagcgctcgcttagcatgcgagaggtagcgggatcgatgcccgcattctccacca
+tdbR00000017 ggggaattagctcaaatggtagagcgctcgcttagcatgcgagaggtagcgggatcgatgcccgcattctccacca 1 Ala_cluster2 ggggaattagctcaagtggtagagcgctcgcttagcatgcgagaggtagcgggatcgatgcccgcattctccacca
+tdbR00000306 ggtcccatggtgtaatggttagcactctggactntgaatccagcgatccgagttcaaatctcggtgggacctcca 2 Gln_cluster1 ggttccatggtgtaatggttagcactctggactctgaatccagcgatccgagttcaaatctcggtggaacctcca
+tdbR00000345 ggccccatggtgtaatggttagcactctggactttgaatccagcgatccgagttcaaatctcggtgggacctcca 4 Gln_cluster1 ggttccatggtgtaatggttagcactctggactctgaatccagcgatccgagttcaaatctcggtggaacctcca
+tdbR00000346 ggtcccatggtgtaatggttagcactctggactttgaatccagcgatccgagttcaaatctcggtgggacctcca 3 Gln_cluster1 ggttccatggtgtaatggttagcactctggactctgaatccagcgatccgagttcaaatctcggtggaacctcca
+tdbR00000062 tccctggtggtctagtggttaggattcggcgctctcaccgccgcggcccgggttcgattcccggtcagggaacca 0 Glu_cluster1 tccctggtggtctagtggntaggattcggcgctntcaccgccgcggcccgggttcgattcccggtcagggaacca
+tdbR00000428 gtagtcgtggccgagtggttaaggcgatggacttgaaatccattggggtctccccgcgcaggttcgaatcctgccgactacgcca 1 Ser_cluster1 gtagtcgtggccgagtggttaaggcgatggactagaaatccattggggtntccccgcgcaggttcgaatcctgccgactacgcca
+tdbR00000149 ggccgtgatcgtatagtggttagtactctgcgttgtggccgcagcaacctcggttcgaatccgagtcacggcacca 2 His_cluster1 gccntgatcgtatagtggttagtactctgcgntgtggccgcagcaacctcggttcgaatccgagtcacggcacca
+tdbR00000269 gtcaggatggccgagtggtctaaggcgccagactnaagttctggtctccggatggagcgtgggttcgaatcccacttctgacacca 1 Leu_cluster2 gtcaggatggccgagtggtctaaggcgccagactcaagttctggtctccnnatggaggcgtgggttcgaatcccacttctgacacca
+tdbR00000571 gcccggatgatcctcagtggtctggggtgcaggcttcaaacctgtagctgtctagcgacagagtggttcaattccacctttcgggcgcca 0 tRNA-SeC-TCA-1-1 gcccggatgatcctcagtggtctggggtgcaggcttcaaacctgtagctgtctagcgacagagtggttcaattccacctttcgggcgcca
+tdbR00000305 gtctctgtggcgcaatcggttagcgcgttcggctgttaaccgaaaggttggtggntcgagcccacccagggacgcca 0 Asn_cluster1 gtctctgtggcgcaatcggttagcgcgttcggctgttaaccgaaaggttggtggttcgagcccacccagggacgcca
+tdbR00000135 gcgccgctggtgtagtggtatcatgcaagattcccattcttgcgacccgggttcgattcccgggcggcgcacca 0 Gly_cluster2 gcgccgctggtgtagtggtatcatgcaagattcccattcttgcgacccgggttcgattcccgggcggcgcacca
+tdbR00000136 gcattggtggttcagtggtagaattctcgcctgccacgcgggaggcccgggttcgattcccggccaatgcacca 0 Gly_cluster1 gcattggtggttcagtggtagaattctcgcctgccacgcgggaggcccgggttcgattccnggccaatgcacca
+tdbR00000540 agcagagtggcgcagcggaagcgtgctgggcccataacccagaggtcgatggatcgaaaccatcctctgctacca 0 Met_cluster2 agcagagtggcgcagcggaagcgtgctgggcccataacccagaggtcgatggatcnaaaccatcctctgctacca
+tdbR00000103 gccgaaatagctcagttgggagagcgttagactgaagatctaaaggtccctggttcgatcccgggtttcggcacca 1 Phe_cluster1 gccgaaatagctcagttgggagagcgttagactgaagatctaaaggtccctggttcaatcccgggtttcggcacca
+tdbR00000566 ccttcgatagctcagctggtagagcggaggactgtagatccttaggtcgctggttcgattccggctcgaaggacca 0 Tyr_cluster1 ccttcgatagctcagntggtagagcggaggactgtagatccttaggtcgctggttcgantccggctcgaaggacca
+tdbR00000567 ccttcgatagctcagttggtagagcggaggactgtagatccttaggtcgctggttcgattccggctcgaaggacca 0 Tyr_cluster1 ccttcgatagctcagntggtagagcggaggactgtagatccttaggtcgctggttcgantccggctcgaaggacca
+tdbR00000476 gtttccgtagtgtagtggttatcacgttcgcctnacacgcgaaaggtccccggttcgaaaccgggcggaaacacca 0 Val_cluster1 gtttccgtagtgtagtggttatcacgttcgcctcacacgcgaaaggtccccggttcgaaaccgggcggaaacacca
+tdbR00000603 cactgtaaagctaacttagcattaaccttttaagttaaagattaagagaaccaacacctctttacagtgacca   
+tdbR00000289 gcctcgttagcgcagtaggtagcgcgtcagtctcataatctgaaggtcgtgagttcgatcctcacacggggcacca   
+
+The merged reference contains 31 additionnal sequences compared to the literature.
+
+Ala_cluster1 gggggtgtagctcagtggtagagcgcntgcttngcatgtatgaggccccgggttcgatccccggcacctccacca         
+Tyr_cluster2 ccttcaatagttcagctggtagagcagaggactataggtccttaggttgctggttcgattccagcttgaaggacca         
+Arg_cluster2 ggctctgtggcgcaatggatagcgcattggacttctaattcaaaggttncgggttcgagtcccgncagagtcgcca         
+Arg_cluster3 gaccgcgtggcctaatggataaggcgtctgacttcggatcagaagattgagggttcgagtcccttcgtggtcgcca         
+Arg_cluster4 gccccagtggcctaatggataaggcattggcctcctaagccagggattgtgggttcgagtcccacctggggtncca         
+Arg_cluster5 ggccgngtggcctaatggataaggcgtctgacttcggatcanaagattgcaggttngagtnctgccncggtcgcca         
+Arg_cluster1 gggccagtggcgcaatggataacgcgtctgactacggatcagaagattctaggttcgactcctggctggctcgcca         
+Ser_cluster3 gacgaggtggccgagtggttaaggcgatggactgctaatccattgtgctctgcacgcgtgggttcgaatcccatcctcgtcgcca         
+Asp_cluster1 tcctcgttagtatagtggtgagtatccccgcctgtcacgcgggagaccggggttcgattccccgacggggagcca         
+Cys_cluster1 gggggtatagctcaggggtagagcatttgactgcagatcaagaggtcccnggttcaaatccnggtgccccctcca         
+Leu_cluster5 gcctccttagtgcagtaggtagcgcatcagtctcaaaatctgaatggtcctgagttcaagcctcagagggggcacca         
+Lys_cluster1 gcccggctagctcagtcggtagagcatgagactcttaatctcagggtcgtgggttcgagccccacgttgggcgcca         
+Glu_cluster2 tcccanatggtctagcggttaggattcctggttttcacccaggnggcccgggttcgactcccggtntgggaacca         
+Met_cluster1 gccctcttagcgcagtnggcagcgcgtcagtctcataatctgaaggtcctgagttcgagcctcagagagggcacca         
+Ile_cluster2 gctccagtggcgcaatcggttagcgcgcggtacttataatgccgaggttgtgagttcnagcctcacctggagcacca         
+Gly_cluster3 gcgttggtggtatagtggtgagcatagctgccttccaagcagttgacccgggttcgattcccggccaacgcacca         
+Pro_cluster1 ggctcgttggtctaggggtatgattctcgcttngggtgcgagaggtcccgggttcaaatcccggacgagccccca         
+Ile_cluster1 ggccggttagctcagttggttagagcgtggtgctaataacgccaaggtcgcgggttcgatccccgtacnggccacca         
+Leu_cluster4 accnggatggccgagtggttaaggcgttggacttaagatccaatggacngntgtccgcgtgggttcgaaccccactccnggtacca         
+Leu_cluster1 ggtagcgtggccgagcggtctaaggcgctggattaaggctccagtctcttcgggggcgtgggttcgaatcccaccgctgccacca         
+Thr_cluster3 ggcgcggtggccaagtggtaaggcgtcggtctcgtaaaccgaagatcncgggttcgaaccccgtccgtgcctcca         
+Leu_cluster3 gtcaggatggccgagcngtctnaaggcgctgcgttcanntcgcannctccnctggaggcgtgggttcgaatcccactnntgacacca         
+Val_cluster2 ggttccatagtgtagtggttatcacntctgctttacacgcagaaggtcctgggttcnagccccagtggaaccacca         
+Thr_cluster2 ggctccatagctcagnggttagagcactggtcttgtaaaccaggggtcgcgagttcaaatctcgctggggcctcca         
+Tyr_cluster3 tcttcaatagctcagctggtagagcggaggactgtagattcttaggtgctggtttgattccgacttggagagcca         
+Lys_cluster2 gcctggatagctcagtcggtagagcatcagacttttaatctgagggtccagggttcaagtccctgttcaggcgcca         
+Ser_cluster4 gtcacggtggccgagtggttaaggcgttggactcgaaatccaatggggtttccccgcacaggttcgaatcctgttcgtgacgcca         
+Val_cluster3 gggggtgtagctcagtggtagagcgtatgcttaacattcatgaggctctgggttcgatccccagcacttccacca         
+Ser_cluster2 gctgtgatggccgagtggttaaggcgttggactcgaaatccaatggggtctccccgcgcaggttcnaatcctgctcacagcgcca         
+Trp_cluster1 gacctcgtggcgcaacggtagcgcgtctgactccagatcagaaggttgcgtgttcaaatcacgtcggggtcacca         
+Thr_cluster1 ggctcngtggcttagttggttaaagcgcctgtctagtaaacaggagatcctgggttcgaatcccagcggggcctcca         

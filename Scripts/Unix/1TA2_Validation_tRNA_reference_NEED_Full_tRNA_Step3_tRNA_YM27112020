@@ -1,0 +1,104 @@
+#!/bin/sh
+#GO to iGenomes folder
+#cd /illumina/runs/iGenomes
+# load full tRNA reference #2
+G=$1`echo "*.fa"`
+
+Genome=`find /illumina/runs/iGenomes -type f -name "$G" -print`
+echo "------------------------------------------------------------------------------------------------------"
+echo "Full tRNA Genome to USE: $Genome"
+echo "------------------------------------------------------------------------------------------------------"
+echo "VERIFY the name of desired reference sequence IF OK, press ENTER to continue, if NOT press N and ENTER"
+echo "------------------------------------------------------------------------------------------------------"
+read opt
+if [ "$opt" ==  "" ];
+then
+#CREATE PATH FOR .bt2 files and .fa file
+iGenome="/"
+FAPath2=$iGenome${Genome:1}
+echo "FAPath Full tRNA : $FAPath2"
+BTPath2=${FAPath2%???}
+echo "BTPath Full tRNA : $BTPath2"
+#write ref genome to txt file
+date >> AlignmentReference.txt
+echo "FAPath Full tRNA : $FAPath2" >>  AlignmentReference.txt 
+fi
+
+#And Step3 merged reference #3
+G=$2`echo "*.fa"`
+Genome=`find /illumina/runs/iGenomes -type f -name "$G" -print`
+echo "------------------------------------------------------------------------------------------------------"
+echo "Step3 tRNA reference to USE: $Genome"
+echo "------------------------------------------------------------------------------------------------------"
+echo "VERIFY the name of desired reference sequence IF OK, press ENTER to continue, if NOT press N and ENTER"
+echo "------------------------------------------------------------------------------------------------------"
+read opt
+if [ "$opt" ==  "" ];
+then
+#CREATE PATH FOR .bt2 files and .fa file
+iGenome="/"
+FAPath3=$iGenome${Genome:1}
+echo "FAPath merged tRNA : $FAPath3"
+BTPath3=${FAPath3%???}
+echo "BTPath merged tRNA : $BTPath3"
+#write ref genome to txt file
+date >> AlignmentReference.txt
+echo "FAPath merged tRNA : $FAPath3" >>  AlignmentReference.txt 
+fi
+#END OF REF SEARCH
+
+#READ FOLDER LIST
+DIRLIST=$(find . -maxdepth 1 -mindepth 1 -type d -exec basename {} \;)
+
+echo "FOUND SAMPLE FOLDERS : $DIRLIST"
+for folder in ${DIRLIST[@]}
+do
+cd $folder
+pwd
+
+##### ALIGNMENT #####
+#1) Start from Full collection of tRNA reads
+#3) Align tRNA reads only to optimized Step3 tRNA reference
+FN="AL_tRNA1_$folder.fastq.gz"
+echo "BOWTIE 2 file list : $FN"
+nohup /illumina/pipeline/bowtie2-2.2.4/bowtie2 -p 8 --no-unal --no-1mm-upfront -D 15 -R 2 -N 0 -L 10 -i S,1,1.15 -x $BTPath3 -U $FN -S mapped_tRNA4_$folder.sam --un-gz NonAL_tRNA4_$folder.fastq.gz > nohup_bowtieL10EtoE_tRNA4_$folder.out
+
+# Stored in BAM
+samtools view -Sb mapped_tRNA4_$folder.sam >  mapped_tRNA4_$folder.bam
+samtools sort mapped_tRNA4_$folder.bam -o mapped_tRNA4_$folder.bam
+samtools index mapped_tRNA4_$folder.bam
+
+#Counting of tRNA counts
+echo "COUNTING ALL reads"
+awk '{print $3}' mapped_tRNA4_$folder.sam | sort | uniq -c | awk '{print $3,$2,$1,$4}' | sort -n > mapped_tRNA4_count_$folder.csv
+
+#SELECTION OF UNIQUELY MAPPED READS ONLY
+grep -E "@|NM:" mapped_tRNA4_$folder.sam | grep -v "XS:" > unique_tRNA4_$folder.sam
+
+#Counting of tRNA counts
+echo "COUNTING UNIQUE reads"
+awk '{print $3}' unique_tRNA4_$folder.sam | sort | uniq -c | awk '{print $3,$2,$1,$4}' | sort -n > unique_tRNA4_count_$folder.csv
+
+#4) Aling non-aligned reads from Step2 to non-redundant tRNA reference Finding missing tRNAs
+FN="NonAL_tRNA4_$folder.fastq.gz"
+echo "BOWTIE 2 file list : $FN"
+
+nohup /illumina/pipeline/bowtie2-2.2.4/bowtie2 -p 8 --no-unal --no-1mm-upfront -D 15 -R 2 -N 0 -L 10 -i S,1,1.15 -x $BTPath2 -U $FN -S mapped_missed_tRNA4_$folder.sam > nohup_bowtieL10EtoE_missed_tRNA4_$folder.out
+
+# Stored in BAM
+samtools view -Sb mapped_missed_tRNA4_$folder.sam >  mapped_missed_tRNA4_$folder.bam
+samtools sort mapped_missed_tRNA4_$folder.bam -o mapped_missed_tRNA4_$folder.bam
+samtools index mapped_missed_tRNA4_$folder.bam
+
+#Counting of tRNA counts
+echo "COUNTING ALL reads"
+awk '{print $3}' mapped_missed_tRNA4_$folder.sam | sort | uniq -c | awk '{print $3,$2,$1,$4}' | sort -n > mapped_missed_tRNA4_count_$folder.csv
+
+#CLEANING
+rm tmp.sam
+rm mapped_tRNA4_$folder.sam
+rm unique_tRNA4_$folder.sam
+rm mapped_missed_tRNA4_$folder.sam
+
+cd ..
+done

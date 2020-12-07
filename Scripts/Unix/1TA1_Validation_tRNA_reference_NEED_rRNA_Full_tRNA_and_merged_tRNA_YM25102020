@@ -1,0 +1,177 @@
+#!/bin/sh
+#GO to iGenomes folder
+#cd /illumina/runs/iGenomes
+
+#Load rRNA reference
+G=$1`echo "*.fa"`
+
+Genome=`find /illumina/runs/iGenomes -type f -name "$G" -print`
+echo "------------------------------------------------------------------------------------------------------"
+echo "rRNA Genome to USE: $Genome"
+echo "------------------------------------------------------------------------------------------------------"
+echo "VERIFY the name of desired reference sequence IF OK, press ENTER to continue, if NOT press N and ENTER"
+echo "------------------------------------------------------------------------------------------------------"
+read opt
+if [ "$opt" ==  "" ];
+then
+#CREATE PATH FOR .bt2 files and .fa file
+iGenome="/"
+FAPath1=$iGenome${Genome:1}
+echo "FAPath rRNA : $FAPath1"
+BTPath1=${FAPath1%???}
+echo "BTPath for rRNA : $BTPath1"
+#write ref genome to txt file
+date >> AlignmentReference.txt
+echo "FAPath rRNA: $FAPath1" >>  AlignmentReference.txt 
+fi
+
+#Then load full tRNA reference
+G=$2`echo "*.fa"`
+
+Genome=`find /illumina/runs/iGenomes -type f -name "$G" -print`
+echo "------------------------------------------------------------------------------------------------------"
+echo "Full tRNA Genome to USE: $Genome"
+echo "------------------------------------------------------------------------------------------------------"
+echo "VERIFY the name of desired reference sequence IF OK, press ENTER to continue, if NOT press N and ENTER"
+echo "------------------------------------------------------------------------------------------------------"
+read opt
+if [ "$opt" ==  "" ];
+then
+#CREATE PATH FOR .bt2 files and .fa file
+iGenome="/"
+FAPath2=$iGenome${Genome:1}
+echo "FAPath Full tRNA : $FAPath2"
+BTPath2=${FAPath2%???}
+echo "BTPath Full tRNA : $BTPath2"
+#write ref genome to txt file
+date >> AlignmentReference.txt
+echo "FAPath Full tRNA : $FAPath2" >>  AlignmentReference.txt 
+fi
+
+#And finally merged reference
+G=$3`echo "*.fa"`
+
+Genome=`find /illumina/runs/iGenomes -type f -name "$G" -print`
+echo "------------------------------------------------------------------------------------------------------"
+echo "Merged tRNA Genome to USE: $Genome"
+echo "------------------------------------------------------------------------------------------------------"
+echo "VERIFY the name of desired reference sequence IF OK, press ENTER to continue, if NOT press N and ENTER"
+echo "------------------------------------------------------------------------------------------------------"
+read opt
+if [ "$opt" ==  "" ];
+then
+#CREATE PATH FOR .bt2 files and .fa file
+iGenome="/"
+FAPath3=$iGenome${Genome:1}
+echo "FAPath merged tRNA : $FAPath3"
+BTPath3=${FAPath3%???}
+echo "BTPath merged tRNA : $BTPath3"
+#write ref genome to txt file
+date >> AlignmentReference.txt
+echo "FAPath merged tRNA : $FAPath3" >>  AlignmentReference.txt 
+fi
+#END OF REF SEARCH
+
+
+#READ FOLDER LIST
+DIRLIST=$(find . -maxdepth 1 -mindepth 1 -type d -exec basename {} \;)
+
+echo "FOUND SAMPLE FOLDERS : $DIRLIST"
+for folder in ${DIRLIST[@]}
+do
+cd $folder
+pwd
+
+##### TRIMMING ####
+#trimming 8-50 nt STR 7 /TruSeq3-SE.fa:2:30:7 
+for i in `find *.gz`
+do
+nohup  java -jar /illumina/pipeline/Trimmomatic-0.32/trimmomatic-0.32.jar SE -phred33 $i T0850Q30_$i ILLUMINACLIP:/illumina/pipeline/Trimmomatic-0.32/adapters/TruSeq3-SE.fa:2:30:7 LEADING:30 TRAILING:30 SLIDINGWINDOW:4:15 MINLEN:8 AVGQUAL:30  > nohupT8_STR7$i.out &
+sleep 15s
+done
+#PAUSE TO FINISH Trimmomatic processes
+sleep 120s 
+#Keeping reads < 40 nts to avoid adapter contaminations
+for i in `find T*.gz`
+do
+#SELECT ONLY SHORT READS maxi 39 adapted to trimming STR7
+gzip -dc $i | awk 'NR%4==1{a=$0} NR%4==2{b=$0} NR%4==3{c=$0} NR%4==0&&length(b)<40 {print a"\n"b"\n"c"\n"$0;}' | gzip > S$i
+rm $i
+done
+
+##### ALIGNMENT #####
+#1) SORT out tRNA reads, take only NOn-aligned to rRNA
+FN=""
+for i in ST*.gz; do FN=`echo $FN$i,`; done
+FN="${FN%?}"
+echo "BOWTIE 2 file list : $FN"
+nohup /illumina/pipeline/bowtie2-2.2.4/bowtie2 -p 8 --no-1mm-upfront -D 15 -R 2 -N 0 -L 10 -i S,1,1.15 -x $BTPath1 -U $FN -S tmp.sam --un-gz NonAL_rRNA_$folder.fastq.gz > nohup_bowtieL10EtoE_rRNA_$folder.out
+
+#2) Align non-rRNA reads to Full non-redundant tRNA reference Step 1
+FN="NonAL_rRNA_$folder.fastq.gz"
+echo "BOWTIE 2 file list : $FN"
+
+nohup /illumina/pipeline/bowtie2-2.2.4/bowtie2 -p 8 --no-unal --no-1mm-upfront -D 15 -R 2 -N 0 -L 10 -i S,1,1.15 -x $BTPath2 -U $FN -S mapped_tRNA1_$folder.sam --un-gz NonAL_tRNA1_$folder.fastq.gz --al-gz AL_tRNA1_$folder.fastq.gz > nohup_bowtieL10EtoE_tRNA1_$folder.out
+
+# Stored in BAM
+samtools view -Sb mapped_tRNA1_$folder.sam >  mapped_tRNA1_$folder.bam
+samtools sort mapped_tRNA1_$folder.bam -o mapped_tRNA1_$folder.bam
+samtools index mapped_tRNA1_$folder.bam
+
+#Counting of tRNA counts in Non-redundant reference Step 1
+echo "COUNTING ALL reads"
+awk '{print $3}' mapped_tRNA1_$folder.sam | sort | uniq -c | awk '{print $3,$2,$1,$4}' | sort -n > mapped_tRNA1_count_$folder.csv
+
+#SELECTION OF UNIQUELY MAPPED READS ONLY
+grep -E "@|NM:" mapped_tRNA1_$folder.sam | grep -v "XS:" > unique_tRNA1_$folder.sam
+
+#Counting of tRNA counts
+echo "COUNTING UNIQUE reads"
+awk '{print $3}' unique_tRNA1_$folder.sam | sort | uniq -c | awk '{print $3,$2,$1,$4}' | sort -n > unique_tRNA1_count_$folder.csv
+
+#3) Align tRNA reads only to optimized Merged tRNA reference Step2
+FN="AL_tRNA1_$folder.fastq.gz"
+echo "BOWTIE 2 file list : $FN"
+nohup /illumina/pipeline/bowtie2-2.2.4/bowtie2 -p 8 --no-unal --no-1mm-upfront -D 15 -R 2 -N 0 -L 10 -i S,1,1.15 -x $BTPath3 -U $FN -S mapped_tRNA2_$folder.sam --un-gz NonAL_tRNA2_$folder.fastq.gz > nohup_bowtieL10EtoE_tRNA2_$folder.out
+
+# Stored in BAM
+samtools view -Sb mapped_tRNA2_$folder.sam >  mapped_tRNA2_$folder.bam
+samtools sort mapped_tRNA2_$folder.bam -o mapped_tRNA2_$folder.bam
+samtools index mapped_tRNA2_$folder.bam
+
+#Counting of tRNA counts
+echo "COUNTING ALL reads"
+awk '{print $3}' mapped_tRNA2_$folder.sam | sort | uniq -c | awk '{print $3,$2,$1,$4}' | sort -n > mapped_tRNA2_count_$folder.csv
+
+#SELECTION OF UNIQUELY MAPPED READS ONLY
+grep -E "@|NM:" mapped_tRNA2_$folder.sam | grep -v "XS:" > unique_tRNA2_$folder.sam
+
+#Counting of tRNA counts
+echo "COUNTING UNIQUE reads"
+awk '{print $3}' unique_tRNA2_$folder.sam | sort | uniq -c | awk '{print $3,$2,$1,$4}' | sort -n > unique_tRNA2_count_$folder.csv
+
+#4) Aling non-aligned reads from Step2 to non-redundant tRNA reference Finding missing tRNAs
+FN="NonAL_tRNA2_$folder.fastq.gz"
+echo "BOWTIE 2 file list : $FN"
+
+nohup /illumina/pipeline/bowtie2-2.2.4/bowtie2 -p 8 --no-unal --no-1mm-upfront -D 15 -R 2 -N 0 -L 10 -i S,1,1.15 -x $BTPath2 -U $FN -S mapped_missed_tRNA2_$folder.sam > nohup_bowtieL10EtoE_missed_tRNA2_$folder.out
+
+# Stored in BAM
+samtools view -Sb mapped_missed_tRNA2_$folder.sam >  mapped_missed_tRNA2_$folder.bam
+samtools sort mapped_missed_tRNA2_$folder.bam -o mapped_missed_tRNA2_$folder.bam
+samtools index mapped_missed_tRNA2_$folder.bam
+
+#Counting of tRNA counts
+echo "COUNTING ALL reads"
+awk '{print $3}' mapped_missed_tRNA2_$folder.sam | sort | uniq -c | awk '{print $3,$2,$1,$4}' | sort -n > mapped_missed_tRNA2_count_$folder.csv
+
+#CLEANING
+rm tmp.sam
+rm mapped_tRNA1_$folder.sam
+rm mapped_tRNA2_$folder.sam
+rm unique_tRNA1_$folder.sam
+rm unique_tRNA2_$folder.sam
+rm mapped_missed_tRNA2_$folder.sam
+
+cd ..
+done

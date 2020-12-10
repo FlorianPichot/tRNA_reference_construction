@@ -19,7 +19,7 @@ The "Unix_scripts" needs Trimmomatic, Bowtie2 and samtools. You can naturally us
   5. Done!
 
 # How to validate references (Unix script) (for advanced users)
-  1. Put the script inside the parent folders of your tRNA samples
+  1. Put the script inside the parent folder of your tRNA samples
   
          \__\ Sample_1 
          \__\ Sample_2

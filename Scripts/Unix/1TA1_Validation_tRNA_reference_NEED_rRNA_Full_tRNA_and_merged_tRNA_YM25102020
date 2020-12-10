@@ -5,7 +5,7 @@
 #Load rRNA reference
 G=$1`echo "*.fa"`
 
-Genome=`find /illumina/runs/iGenomes -type f -name "$G" -print`
+Genome=`find /illumina/runs/iGenomes -type f -name "$G" -print`   # //!\\
 echo "------------------------------------------------------------------------------------------------------"
 echo "rRNA Genome to USE: $Genome"
 echo "------------------------------------------------------------------------------------------------------"
@@ -28,7 +28,7 @@ fi
 #Then load full tRNA reference
 G=$2`echo "*.fa"`
 
-Genome=`find /illumina/runs/iGenomes -type f -name "$G" -print`
+Genome=`find /illumina/runs/iGenomes -type f -name "$G" -print`   # //!\\
 echo "------------------------------------------------------------------------------------------------------"
 echo "Full tRNA Genome to USE: $Genome"
 echo "------------------------------------------------------------------------------------------------------"
@@ -51,7 +51,7 @@ fi
 #And finally merged reference
 G=$3`echo "*.fa"`
 
-Genome=`find /illumina/runs/iGenomes -type f -name "$G" -print`
+Genome=`find /illumina/runs/iGenomes -type f -name "$G" -print`    # //!\\
 echo "------------------------------------------------------------------------------------------------------"
 echo "Merged tRNA Genome to USE: $Genome"
 echo "------------------------------------------------------------------------------------------------------"
@@ -87,7 +87,7 @@ pwd
 for i in `find *.gz`
 do
 nohup  java -jar /illumina/pipeline/Trimmomatic-0.32/trimmomatic-0.32.jar SE -phred33 $i T0850Q30_$i ILLUMINACLIP:/illumina/pipeline/Trimmomatic-0.32/adapters/TruSeq3-SE.fa:2:30:7 LEADING:30 TRAILING:30 SLIDINGWINDOW:4:15 MINLEN:8 AVGQUAL:30  > nohupT8_STR7$i.out &
-sleep 15s
+sleep 15s     # //!\\
 done
 #PAUSE TO FINISH Trimmomatic processes
 sleep 120s 
@@ -106,12 +106,14 @@ for i in ST*.gz; do FN=`echo $FN$i,`; done
 FN="${FN%?}"
 echo "BOWTIE 2 file list : $FN"
 nohup /illumina/pipeline/bowtie2-2.2.4/bowtie2 -p 8 --no-1mm-upfront -D 15 -R 2 -N 0 -L 10 -i S,1,1.15 -x $BTPath1 -U $FN -S tmp.sam --un-gz NonAL_rRNA_$folder.fastq.gz > nohup_bowtieL10EtoE_rRNA_$folder.out
+# //!\\
 
 #2) Align non-rRNA reads to Full non-redundant tRNA reference Step 1
 FN="NonAL_rRNA_$folder.fastq.gz"
 echo "BOWTIE 2 file list : $FN"
 
 nohup /illumina/pipeline/bowtie2-2.2.4/bowtie2 -p 8 --no-unal --no-1mm-upfront -D 15 -R 2 -N 0 -L 10 -i S,1,1.15 -x $BTPath2 -U $FN -S mapped_tRNA1_$folder.sam --un-gz NonAL_tRNA1_$folder.fastq.gz --al-gz AL_tRNA1_$folder.fastq.gz > nohup_bowtieL10EtoE_tRNA1_$folder.out
+# //!\\
 
 # Stored in BAM
 samtools view -Sb mapped_tRNA1_$folder.sam >  mapped_tRNA1_$folder.bam
@@ -133,6 +135,7 @@ awk '{print $3}' unique_tRNA1_$folder.sam | sort | uniq -c | awk '{print $3,$2,$
 FN="AL_tRNA1_$folder.fastq.gz"
 echo "BOWTIE 2 file list : $FN"
 nohup /illumina/pipeline/bowtie2-2.2.4/bowtie2 -p 8 --no-unal --no-1mm-upfront -D 15 -R 2 -N 0 -L 10 -i S,1,1.15 -x $BTPath3 -U $FN -S mapped_tRNA2_$folder.sam --un-gz NonAL_tRNA2_$folder.fastq.gz > nohup_bowtieL10EtoE_tRNA2_$folder.out
+# //!\\
 
 # Stored in BAM
 samtools view -Sb mapped_tRNA2_$folder.sam >  mapped_tRNA2_$folder.bam
@@ -155,6 +158,7 @@ FN="NonAL_tRNA2_$folder.fastq.gz"
 echo "BOWTIE 2 file list : $FN"
 
 nohup /illumina/pipeline/bowtie2-2.2.4/bowtie2 -p 8 --no-unal --no-1mm-upfront -D 15 -R 2 -N 0 -L 10 -i S,1,1.15 -x $BTPath2 -U $FN -S mapped_missed_tRNA2_$folder.sam > nohup_bowtieL10EtoE_missed_tRNA2_$folder.out
+# //!\\
 
 # Stored in BAM
 samtools view -Sb mapped_missed_tRNA2_$folder.sam >  mapped_missed_tRNA2_$folder.bam

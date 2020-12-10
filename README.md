@@ -24,6 +24,7 @@ The "Unix_scripts" needs Trimmomatic, Bowtie2 and samtools. You can naturally us
          \__\ Sample_1 
          \__\ Sample_2
          \__\ Sample_3
+         [...]
          |_| Script HERE
   
   2. Change the "Genome" path to your different rRNA/tRNA references if needed ('/illumina/runs/iGenomes' by default)

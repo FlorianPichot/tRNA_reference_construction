@@ -31,15 +31,15 @@ pdf.height=15
 ###############################################
 #COPY WINDOWS PATH TO CLIPBOARD
 ###############################################
-extDataDir  <- gsub  ( "\\\\",  "/",  readClipboard ()  ) #READ FROM CLIPBOARD
+extDataDir  <- gsub  ( "\\\\",  "/",  readClipboard ()  ) #READ FROM CLIPBOARD //!\\
 
 #OR INDICATE extDataDir directly
-#extDataDir <-  "/run/user/1001/gvfs/smb-share:server=193.54.30.197,share=runs/PROJECTS/2primeO/FlorianBioinfo/cytoplasmic_tRNAs/counting_distances_Bsubtilis" #READ AND send to extDataDir
+#extDataDir <-  "/run/user/1001/gvfs/smb-share:server=193.54.30.197,share=runs/PROJECTS/2primeO/FlorianBioinfo/cytoplasmic_tRNAs/counting_distances_Bsubtilis" #READ AND send to extDataDir //!\\\
 setwd(extDataDir)
 
 #GIVE NAME of Fasta FILE
-#Fasta_file_RNApattern <-"stapAure_AUREUS_NCTC_832-mature-tRNAs_03062020"
-Fasta_file_RNApattern <-"*..fa" #TAKE ANY *.fa file in folder
+#Fasta_file_RNApattern <-"stapAure_AUREUS_NCTC_832-mature-tRNAs_03062020" //!\\
+Fasta_file_RNApattern <-"*..fa" #TAKE ANY *.fa file in folder //!\\
 
 Fasta_file_RNA <- dir(paste0(extDataDir), pattern = paste0(Fasta_file_RNApattern), full.names = T)
 Fasta_file_RNA #VERIFICATION of the file name
@@ -197,7 +197,7 @@ write.table(out.file, file = paste0("Merge_Step1_NoDup",organism_name,"_",i,"seq
 
 
 #####################################################################################################################
-## 2nd Run ## MERCGE NOW TO CLUSTERS
+## 2nd Run ## MERGE NOW TO CLUSTERS
 #WILL USE NON-repetitive sequence obtained during the first step "Step1_Sequence_NoDup_"
 #####################################################################################################################
 
